@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{75f2b374-ac9d-44ef-bfd8-cfb5664b8ef4}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{2634f498-6c06-4326-972e-e7032a5f4b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{82d300fc-8a51-4373-98aa-6e1ee6e45bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnitTest">
+      <UniqueIdentifier>{c4ba8ec6-0937-4a03-be64-ff3990c11fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites">
+      <UniqueIdentifier>{cc1a5b6c-1ca7-44bd-b69a-7362dade1cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites\Units">
+      <UniqueIdentifier>{7115434c-146e-4a37-a69d-71cc63868edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites\Buildings">
+      <UniqueIdentifier>{17ca3233-ed30-4a5e-865c-9c59ff1509b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprites\Resource">
+      <UniqueIdentifier>{222ff1e5-8300-448d-81e4-bf10d4bc8e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{d2d8caa1-24b7-41e2-bfe4-6702f0740a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\BuildDialog">
+      <UniqueIdentifier>{988b1d5e-c6c8-4ec1-85ef-5e91eaacf63c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\BuildDialog\GenerateUnit">
+      <UniqueIdentifier>{0f956da8-e7e3-459e-ab0d-776be2f8a915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\BuildDialog\Building">
+      <UniqueIdentifier>{603f29aa-bc5b-4adc-aff9-0b39f9eef302}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelibTest.cpp">
+      <Filter>UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteFactory.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="CTarget.cpp">
+      <Filter>Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="CArcher.cpp">
+      <Filter>Sprites\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="CKnight.cpp">
+      <Filter>Sprites\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="CSwordMan.cpp">
+      <Filter>Sprites\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="CUnit.cpp">
+      <Filter>Sprites\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="CVillager.cpp">
+      <Filter>Sprites\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="CArchery.cpp">
+      <Filter>Sprites\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="CBarrack.cpp">
+      <Filter>Sprites\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuilding.cpp">
+      <Filter>Sprites\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="CStable.cpp">
+      <Filter>Sprites\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="CTownCenter.cpp">
+      <Filter>Sprites\Buildings</Filter>
+    </ClCompile>
+    <ClCompile Include="CFruit.cpp">
+      <Filter>Sprites\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CGold.cpp">
+      <Filter>Sprites\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Sprites\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceTable.cpp">
+      <Filter>Sprites\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CStone.cpp">
+      <Filter>Sprites\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CWood.cpp">
+      <Filter>Sprites\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CInitDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CMultiGameDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildDialog.cpp">
+      <Filter>Dialog\BuildDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildArcher.cpp">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildKnight.cpp">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildSwordMan.cpp">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildVillager.cpp">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildArchery.cpp">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildBarrack.cpp">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildStable.cpp">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuildTownCenter.cpp">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationAdvance.cpp" />
+    <ClCompile Include="CBuildingBuilder.cpp" />
+    <ClCompile Include="CConvert.cpp" />
+    <ClCompile Include="CGameMap.cpp" />
+    <ClCompile Include="CMapTile.cpp" />
+    <ClCompile Include="CMouse.cpp" />
+    <ClCompile Include="CMouseState.cpp" />
+    <ClCompile Include="CPlayer.cpp" />
+    <ClCompile Include="CResourceCenter.cpp" />
+    <ClCompile Include="CSelectionPanel.cpp" />
+    <ClCompile Include="mygame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteFactory.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="CTarget.h">
+      <Filter>Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="CArcher.h">
+      <Filter>Sprites\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="CKnight.h">
+      <Filter>Sprites\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="CSwordMan.h">
+      <Filter>Sprites\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="CUnit.h">
+      <Filter>Sprites\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="CVillager.h">
+      <Filter>Sprites\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="CArchery.h">
+      <Filter>Sprites\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="CBarrack.h">
+      <Filter>Sprites\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuilding.h">
+      <Filter>Sprites\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="CStable.h">
+      <Filter>Sprites\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="CTownCenter.h">
+      <Filter>Sprites\Buildings</Filter>
+    </ClInclude>
+    <ClInclude Include="CFruit.h">
+      <Filter>Sprites\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CGold.h">
+      <Filter>Sprites\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Sprites\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceTable.h">
+      <Filter>Sprites\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CStone.h">
+      <Filter>Sprites\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CWood.h">
+      <Filter>Sprites\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CInitDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CMultiGameDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildDialog.h">
+      <Filter>Dialog\BuildDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildArcher.h">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildKnight.h">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildSwordMan.h">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildVillager.h">
+      <Filter>Dialog\BuildDialog\GenerateUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildArchery.h">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildBarrack.h">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildStable.h">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuildTownCenter.h">
+      <Filter>Dialog\BuildDialog\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationAdvance.h" />
+    <ClInclude Include="CBuildingBuilder.h" />
+    <ClInclude Include="CConvert.h" />
+    <ClInclude Include="CGameMap.h" />
+    <ClInclude Include="CMapTile.h" />
+    <ClInclude Include="CMouse.h" />
+    <ClInclude Include="CMouseState.h" />
+    <ClInclude Include="CPlayer.h" />
+    <ClInclude Include="CResourceCenter.h" />
+    <ClInclude Include="CSelectionPanel.h" />
+    <ClInclude Include="mygame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

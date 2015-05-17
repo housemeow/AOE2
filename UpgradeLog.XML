@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="game">
+</Property><Property Name="Solution File" Value="D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\game.sln">
+</Property><Property Name="User Options File" Value="D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\game.suo">
+</Property><Property Name="Date" Value="Sunday, May 17, 2015">
+</Property><Property Name="Time" Value="21:46 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="game.sln" Description="File successfully backed up as D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\game.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="game.suo" Description="File successfully backed up as D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\game.suo.old">
+</Event><Event ErrorLevel="0" Project="game" Source="game.vcproj" Description="Converting project file 'D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\game.vcproj'.">
+</Event><Event ErrorLevel="1" Project="game" Source="game.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="game" Source="game.vcproj" Description="MSB8012: $(TargetPath) ('D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\.\Debug\game.exe') does not match the Linker's OutputFile property value '.\Debug/game.exe' ('D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\Debug/game.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="game" Source="game.vcproj" Description="MSB8012: $(TargetPath) ('D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\.\Release\game.exe') does not match the Linker's OutputFile property value '.\Release/game.exe' ('D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\Release/game.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="game" Source="game.vcproj" Description="MSB8012: $(TargetPath) ('D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\.\UnitTest\game.exe') does not match the Linker's OutputFile property value '.\UnitTest/game.exe' ('D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\UnitTest/game.exe') in project configuration 'UnitTest|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="game" Source="game.vcproj" Description="Done converting to new project file 'D:\Dropbox\School\二下\物件導向程式設計實習(陳偉凱)\Game\0417(重構)\game4.6\game.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="game" Source="game.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="game.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="game.sln" Description="Converted">
+</Event></UpgradeLog>
